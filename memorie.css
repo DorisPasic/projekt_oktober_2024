@@ -47,3 +47,33 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+-----------------
+
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container > button {
+    margin: 5px;
+  }
+
+footer {
+    background-color: #38e7ad;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: antiquewhite;
+    padding: 8px;
+    margin: 5px;
+}
+
+.absatz {
+    border: #38e7ad, 5px, solid;
+    padding: 5px;
+    margin: 5px;
+}
