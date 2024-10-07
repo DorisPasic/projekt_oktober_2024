@@ -3,13 +3,13 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     justify-content: center;
-    border: 5px solid #1b34c0; 
-    padding: 20px; 
-    max-width: 800px; 
-    margin: 40px auto; 
-  }
-  
-  .card {
+    border: 5px solid #38e7ad;
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.card {
     width: 100px;
     height: 100px;
     background-color: #ccc;
@@ -18,27 +18,32 @@
     align-items: center;
     font-size: 48px;
     cursor: pointer;
-    margin: 0px 5px; 
-    border: 1px solid #7dec15; 
-  }
-  
-  .card.flipped {
-    transform: rotateY(180deg);
-  }
-  
-  .card.flipped > span {
-    transform: rotateY(-180deg); 
-  }
-  
-  .card.matched {
-    background-color: #0f0;
-  }
-  
-  .title {
-    text-align: center; 
-    margin-bottom: 20px; 
-  }
-  
- h1 {
-    text-align: center; 
-    margin-bottom: 20px; }
+    margin: 0px 5px;
+    border: 1px solid #38e7ad;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: none; 
+}
+
+.card.flipped img {
+    display: block; 
+}
+
+.card.matched {
+    background-color: #08ffad;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
