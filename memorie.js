@@ -13,7 +13,7 @@ cards.forEach((card) => {
       !flippedCards.includes(card) &&
       !matchedCards.includes(card)
     ) {
-      card.classList.toggle("flipped"); /* Toggle the flipped class instead of adding it */
+      card.classList.toggle("flipped"); 
       flippedCards.push(card);
       if (flippedCards.length === 2) {
         setTimeout(checkMatch, 1000);

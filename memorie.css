@@ -27,11 +27,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    display: none; /* Add this line to hide the images initially */
+    display: none; 
 }
 
 .card.flipped img {
-    display: block; /* Add this line to show the image when the card is flipped */
+    display: block; 
 }
 
 .card.matched {
