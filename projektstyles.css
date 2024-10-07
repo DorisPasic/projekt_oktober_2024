@@ -1,0 +1,25 @@
+body {
+    padding: 5px;
+}
+
+header {
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+}
+  
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: aquamarine;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
