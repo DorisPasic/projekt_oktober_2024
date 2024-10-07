@@ -3,10 +3,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     justify-content: center;
-    border: 5px solid #1b34c0; /* Umrandung um die Karten */
-    padding: 20px; /* Abstand zwischen der Umrandung und den Karten */
-    max-width: 800px; /* Limit the width of the game container */
-    margin: 40px auto; /* Center the game container horizontally */
+    border: 5px solid #1b34c0; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 40px auto; 
   }
   
   .card {
@@ -18,8 +18,8 @@
     align-items: center;
     font-size: 48px;
     cursor: pointer;
-    margin: 0px 5px; /* Reduzierte rechte und linke Margin */
-    border: 1px solid #7dec15; /* Umrandung um jede Karte */
+    margin: 0px 5px; 
+    border: 1px solid #7dec15; 
   }
   
   .card.flipped {
@@ -27,7 +27,7 @@
   }
   
   .card.flipped > span {
-    transform: rotateY(-180deg); /* Rotate the text back to its original position */
+    transform: rotateY(-180deg); 
   }
   
   .card.matched {
@@ -35,8 +35,8 @@
   }
   
   .title {
-    text-align: center; /* Titel in der Mitte */
-    margin-bottom: 20px; /* Abstand zwischen dem Titel und den Karten */
+    text-align: center; 
+    margin-bottom: 20px; 
   }
   
  h1 {
