@@ -5,8 +5,8 @@ let questions = [
     {
         question: "Wieviele Beine hat eine Spinne?",
         answers: ["2", "8", "4", "6"], // = Array
-        correctAnswer: 1  // Integer, der richtige Index ist 1 ( 8 Beine )
-        //description: `Spinnen haben immer acht Beine und zwei Körperglieder, Insekten hingegen haben immer sechs Beine und drei Körperglieder.`
+        correctAnswer: 1,  // Integer, der richtige Index ist 1 ( 8 Beine ),
+        description: `Spinnen haben immer acht Beine und zwei Körperglieder, Insekten hingegen haben immer sechs Beine und drei Körperglieder.`
     },
     {
         question: "Zu welcher Tierart gehört die Rasse 'Maine Coon'?",
@@ -135,6 +135,7 @@ function displayQuestion(){
         document.getElementById(`quiz-container`).hidden = true; // fragen werden versteckt
         document.getElementById(`result`).hidden = false; // result ist nicht mehr versteckt
         document.getElementById(`score`).textContent = score;
+  /*       document.getElementById(`description`).textContent = description; */
 
         return; // beendet die Funktion an diesem Punkt
     }
@@ -161,9 +162,9 @@ function checkAnswer(userAnswer){
 
     if(userAnswer == correctAnswer){ // == ist zum Vergleichen
         score += 1
-        //console.log(${this.description});
+/*         console.log(`Super! Das stimmt: ${description}`);
         ;
-    }
+    } else { console.log(`Das ist leider falsch: ${description}`)} */};
 
     nextQuestion();
 }
