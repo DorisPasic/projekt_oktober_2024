@@ -66,3 +66,14 @@ button {
     color: black
 }
 
+.witz {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  border-left: #38e7ad;
+  border-right: #38e7ad;
+  border-width: thin;
+  padding: 15px;
+}
