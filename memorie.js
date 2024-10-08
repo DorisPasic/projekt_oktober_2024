@@ -34,3 +34,4 @@ function checkMatch() {
   }
   flippedCards = [];
 }
+
