@@ -3,3 +3,5 @@
 Ziele des Projekts:
 - spielerisches Lernen; 
 - Homepage mit Header und Footer, darauf mindestens ein Spiel.
+
+Bilder über AI erzeugt oder free Pixabay
