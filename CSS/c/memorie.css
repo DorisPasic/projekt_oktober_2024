@@ -93,8 +93,8 @@ footer {
 }
 
 h1 span {
-  color: #38e7ad; /* match the green color used in the original congratulatory message */
+  color: #f7bb17; 
   font-size: 1.5em;
   font-weight: bold;
-  margin-left: 10px; /* add some space between the "Memory Spiel" text and the congratulatory message */
+  margin-left: 10px; 
 }
