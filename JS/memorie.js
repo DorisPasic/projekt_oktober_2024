@@ -33,5 +33,19 @@ function checkMatch() {
     flippedCards[1].classList.remove("flipped");
   }
   flippedCards = [];
+
+  console.log(`Matched cards: ${matchedCards.length} / ${cards.length}`);
+
+  if (matchedCards.length === cards.length) {
+    console.log("All cards matched! Displaying congratulations...");
+    displayCongratulations();
+  }
 }
 
+function displayCongratulations() {
+  console.log("Displaying congratulations...");
+  const headerElement = document.querySelector("h1");
+  const congratulationsMessage = document.createElement("span");
+  congratulationsMessage.textContent = " Glückwunsch! Du hast das Memory Spiel gewonnen!";
+  headerElement.appendChild(congratulationsMessage);
+}

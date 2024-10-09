@@ -92,20 +92,9 @@ footer {
     text-align: center;
 }
 
-.congratulations {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #38e7ad;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  
-  .congratulations h2 {
-    font-size: 24px;
-    color: #fff;
-    margin-bottom: 10px;
-  }
+h1 span {
+  color: #38e7ad; /* match the green color used in the original congratulatory message */
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10px; /* add some space between the "Memory Spiel" text and the congratulatory message */
+}
