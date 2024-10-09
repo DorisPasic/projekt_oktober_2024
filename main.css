@@ -16,7 +16,7 @@ header {
     flex: 0 0 75px; 
   }
   
-  .header-content {
+  .header-content {absa
     flex: 1;
     text-align: center;
     display: flex;
@@ -71,7 +71,7 @@ button {
   justify-content: center;
   border: 2px solid black;
   border-radius: 15px;
-  padding: 10px;
+  padding: 15px;
   border-left: #38e7ad;
   border-right: #38e7ad;
   border-width: thin;
