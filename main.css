@@ -21,10 +21,6 @@ header {
     justify-content: center; 
   }
   
-/*   .header-content > h2 {
-    margin-bottom: 10px;
-  } */
-  
   .button-container {
     display: flex;
     justify-content: center;
