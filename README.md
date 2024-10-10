@@ -5,3 +5,8 @@ Ziele des Projekts:
 - Homepage mit Header und Footer, darauf mindestens ein Spiel.
 
 Bilder über AI erzeugt oder free Pixabay
+
+- Html
+- CSS
+- Javascript
+
